@@ -14,6 +14,7 @@
 | Function that compares every item in a list with every item in another list | __O(n<sup>2</sup>)__ | 
 
 __Big O complexity chart__
+
 ![big o complexity](img/big_o.png)
 
 ## Representing state: Creating a framework to represent problem spaces and solutions
@@ -35,6 +36,7 @@ __Big O complexity chart__
 - The data structure we use is influenced by the context of the problem and the desired goal.
 
 __Data structure used with algorithms__
+
 ![ds](img/ds.png)
 
 ## Uninformed search: Looking blindly for solutions
@@ -53,6 +55,7 @@ __BFS flow chart__
 ![bfs](img/bfs.png)
 
 __Order of processed nodes in a tree using BFS__
+
 ![bfs order](img/bfs_order.png)
 
 - In the maze example, the algorithm needs to understand the current position of the player in the maze, evaluate all possible choices for movement, and repeat that logic for each choice of movement made until the goal is reached.
@@ -70,6 +73,7 @@ __Flow of DFS__
 ![dfs flow](img/dfs_flow.png)
 
 __Order of processed nodes in a tree using DFS__
+
 ![dfs order](img/dfs_order.png)
 
 
@@ -95,6 +99,7 @@ __Order of processed nodes in a tree using DFS__
 - If a node is connected by a specific edge as an outgoing node or connected in an undirected graph, the value `1` is stored.
 
 __Representing a graph as an incidence matrix__
+
 ![incidence matrix](img/incidence_matrix.png)
 
 
